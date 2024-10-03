@@ -25,7 +25,7 @@ print(f'\n\nunique boroughs:\n {borough}')
 
 print(f'\n\nBrooklyn boroughs: {brooks}')
 
-with open('taxi_zone_output.txt', mode='w') as op:
+with open('/root/taxi_zone_output.txt', mode='w') as op:
     op.write(f'total no. of records: {total}')
     op.write(f'\n\nunique boroughs:\n {borough}')
     op.write(f'\n\nBrooklyn boroughs: {brooks}')
